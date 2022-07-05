@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GNU GPLv2
-// Contracts v4.4.1 (token/BEP20/BEP20.sol)
+
 // File: contracts/Phantom DLX.sol
 
 pragma solidity 0.5.16;
