@@ -1,6 +1,5 @@
-*Submitted for verification at BscScan.com on 2022-06-20
-*/
-
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts v4.4.1 (token/BEP20/BEP20.sol)
 // File: contracts/Phantom DLX.sol
 
 pragma solidity 0.5.16;
