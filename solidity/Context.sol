@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
+// SPDX-License-Identifier: GNU GPLv2
+// Contracts v4.4.1 (utils/Context.sol)
 
 pragma solidity 0.5.16;
 
