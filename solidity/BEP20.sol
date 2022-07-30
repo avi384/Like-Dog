@@ -30,13 +30,17 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "The Helloween";
-    _symbol = "Hlw";
-    _decimals = 9;
-    _totalSupply = 2000000000000000000;
+    _name = "PHANTOM DELUXE";
+    _symbol = "PND";
+    _decimals = 18;
+    _totalSupply = 5499999999999900000000000000000;
     _balances[msg.sender] = _totalSupply;
- * - `account` must have at least `amount` tokens.
-   */
+
+    emit Transfer(address(0), msg.sender, _totalSupply);
+  }
+
+  /**
+   * @dev Returns the bep token owner.
   function _burn(address account, uint256 amount) internal {
     require(account != address(0), "BEP20: burn from the zero address");
 
