@@ -1,8 +1,6 @@
 /**
- *Submitted for verification at BscScan.com on 2022-06-20
+ *Submitted for verification at BscScan.com on 2022-10-11
 */
-
-// File: contracts/Phantom DLX.sol
 
 pragma solidity 0.5.16;
 
@@ -355,10 +353,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "PHANTOM DELUXE";
-    _symbol = "PND";
-    _decimals = 18;
-    _totalSupply = 5499999999999900000000000000000;
+    _name = "LikeDoge";
+    _symbol = "LikeDog";
+    _decimals = 8 ;
+    _totalSupply = 1000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
